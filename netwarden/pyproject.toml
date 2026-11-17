@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netwarden"
+version = "1.0.0"
+description = "A small, defensive network assessment tool: discover services, match known vulnerabilities, report remediation."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Khaled Mahmud" }]
+dependencies = []          # standard library only (ADR-0001)
+
+[project.optional-dependencies]
+dev = ["pytest==9.2.0", "pytest-cov==7.1.0", "ruff==0.17.5", "mypy==2.4.1"]
+
+[project.scripts]
+netwarden = "netwarden.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"netwarden.data" = ["*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["netwarden"]
+omit = ["*/__main__.py"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S"]
+ignore = ["S101"]          # assert is fine in tests
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+files = ["src"]

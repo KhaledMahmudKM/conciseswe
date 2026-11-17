@@ -1,0 +1,35 @@
+# Example: a weekly NetWarden assessment of a lab network (book, Chapter 14).
+# Copy to .github/workflows/ in a repository whose self-hosted runner sits inside the lab network.
+# Scan only networks listed in lab-scope.txt, which you must be authorised to assess.
+name: Weekly lab assessment
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"        # Mondays 06:00 UTC
+  workflow_dispatch: {}         # allow manual runs
+
+jobs:
+  assess:
+    runs-on: [self-hosted, lab]
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/cache@v4
+        with:
+          path: netwarden.db
+          key: netwarden-history-${{ github.run_id }}
+          restore-keys: netwarden-history-
+      - name: Scan
+        run: |
+          docker run --rm --network host -v "$PWD:/data" -w /data netwarden:1.0.0 \
+            --db netwarden.db scan 192.168.56.0/24 --scope lab-scope.txt \
+            --format html --output report.html --fail-on high
+      - name: Compare with previous scan
+        if: always()
+        run: |
+          docker run --rm -v "$PWD:/data" -w /data netwarden:1.0.0 --db netwarden.db history | head -2
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: netwarden-report
+          path: report.html
+          retention-days: 30

@@ -1,0 +1,42 @@
+[
+  {
+    "separator": "Part I · Foundations"
+  },
+  "01-what-is-se.md",
+  "02-process.md",
+  {
+    "separator": "Part II · Requirements and Design"
+  },
+  "03-requirements.md",
+  "04-modelling.md",
+  "05-design-principles.md",
+  "06-patterns.md",
+  "07-architecture.md",
+  {
+    "separator": "Part III · Construction"
+  },
+  "08-version-control.md",
+  "09-clean-code.md",
+  "10-refactoring.md",
+  {
+    "separator": "Part IV · Quality"
+  },
+  "11-testing.md",
+  "12-quality-security.md",
+  {
+    "separator": "Part V · Delivery and Operations"
+  },
+  "13-cicd.md",
+  "14-devops.md",
+  "15-maintenance.md",
+  {
+    "separator": "Part VI · People and Projects"
+  },
+  "16-project-management.md",
+  "17-teams-ethics-ai.md",
+  {
+    "separator": "Appendix"
+  },
+  "18-reference.md",
+  "glossary.md"
+]

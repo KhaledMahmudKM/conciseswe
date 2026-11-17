@@ -1,0 +1,12 @@
+{
+  "title": "Concise Book on Software Engineering",
+  "author": "Khaled Mahmud",
+  "year": "2026",
+  "copyright": "© 2026 Khaled Mahmud",
+  "version": "1.0",
+  "description": "A concise, diagram-rich guide to software engineering: process models, requirements engineering, UML and C4 modelling, design principles and patterns, architecture, clean code, testing, quality assurance, CI/CD, DevOps, maintenance, project management and professional ethics, built around a running Python project, the NetWarden network assessment tool.",
+  "homeUrl": "https://khaledmahmudkm.github.io/stacks/",
+  "logo": "logo.svg",
+  "palette": "clay",
+  "math": false
+}
