@@ -9,6 +9,7 @@ htmlcov/
 build/
 dist/
 *.egg-info/
+.gitignore
 README.local.md
 
 # NetWarden results are sensitive: never commit them (book, Chapters 8 and 12)
