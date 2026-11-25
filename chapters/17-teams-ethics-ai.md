@@ -965,3 +965,63 @@ The practices in this book are not a checklist to complete once. They are habits
 - Security tools are **dual-use**: build in limits, and assess systems only with **written authorisation** and agreed **rules of engagement**.
 - Respect **licences**; know what your dependencies allow.
 - **AI assistants** speed up routine work but make confident mistakes; verify their output with the same tests, analysis and review as any other code. The engineer remains accountable.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-17-teams-ethics-and-ai-assisted-development).
+
+**1. Which are Tuckman's stages of team development?**
+
+- A. Forming, storming, norming, performing
+- B. Plan, do, check, act
+- C. Hire, train, review, promote
+- D. Start, sprint, release, retire
+
+**2. What did research find to be the strongest predictor of team effectiveness?**
+
+- A. Team size
+- B. Seniority
+- C. Psychological safety
+- D. Office layout
+
+**3. How many communication paths does a team of 6 have?**
+
+- A. 6
+- B. 12
+- C. 15
+- D. 36
+
+**4. What does Conway's law say?**
+
+- A. Teams grow until they fail
+- B. Every team needs a manager
+- C. Code quality falls with team size
+- D. A system's structure tends to mirror the communication structure of the organisation that builds it
+
+**5. What does the ACM/IEEE-CS Software Engineering Code of Ethics put first?**
+
+- A. The employer
+- B. The public interest
+- C. The client
+- D. The profession
+
+**6. What makes NetWarden a dual-use tool?**
+
+- A. It runs on two platforms
+- B. It has two interfaces
+- C. It is free and paid
+- D. The same capability can defend or attack, so it builds in limits and requires authorisation
+
+**7. Why must you check your dependencies' licences?**
+
+- A. They set what you may do with the code, such as distribution and attribution conditions
+- B. Licences slow builds
+- C. Only commercial code has licences
+- D. Licences expire
+
+**8. Who is accountable for code an AI assistant wrote?**
+
+- A. The AI vendor
+- B. Nobody
+- C. The engineer who accepts it, who must verify it with tests, analysis and review
+- D. The code reviewer only

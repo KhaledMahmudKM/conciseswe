@@ -1427,3 +1427,63 @@ Then imagine three changes and count the files each would touch: a new check; a 
 - **DRY, KISS, YAGNI**, Law of Demeter, composition over inheritance, separation of concerns.
 - Security design principles: **fail-safe defaults, least privilege, economy of mechanism, complete mediation**.
 - Principles are heuristics: apply them to the changes you expect, and avoid speculative generality.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-5-design-principles).
+
+**1. What is the design goal for modules, in terms of coupling and cohesion?**
+
+- A. Low coupling, high cohesion
+- B. High coupling, low cohesion
+- C. High coupling, high cohesion
+- D. Low coupling, low cohesion
+
+**2. According to Parnas, how should a system be divided into modules?**
+
+- A. By the steps of a flowchart
+- B. By file size
+- C. To hide design decisions likely to change
+- D. By team
+
+**3. Which SOLID principle says a module should be open for extension but closed for modification?**
+
+- A. Single responsibility
+- B. Open/closed
+- C. Liskov substitution
+- D. Dependency inversion
+
+**4. A reporter class has render() but returns bytes where callers expect text. Which principle does it break?**
+
+- A. Interface segregation
+- B. DRY
+- C. KISS
+- D. Liskov substitution
+
+**5. What does dependency inversion ask for?**
+
+- A. Low-level modules depend on high-level ones by name
+- B. High-level modules depend on abstractions, not on concrete low-level details
+- C. No dependencies at all
+- D. Inheritance everywhere
+
+**6. The CVSS-to-severity mapping exists only in Severity.from_cvss. Which principle is that?**
+
+- A. YAGNI
+- B. Law of Demeter
+- C. KISS
+- D. DRY
+
+**7. Not building a plugin loader until someone needs one follows which principle?**
+
+- A. YAGNI
+- B. DRY
+- C. SOLID
+- D. Demeter
+
+**8. What is a leaky abstraction?**
+
+- A. One that crashes
+- B. One with too many methods
+- C. One whose callers must know about the details it was meant to hide
+- D. One that is not documented

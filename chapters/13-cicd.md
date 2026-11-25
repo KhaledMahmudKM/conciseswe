@@ -989,3 +989,63 @@ The pipeline has the keys to the kingdom: it can change production. Treat it as 
 - **Continuous delivery** keeps every change releasable; **continuous deployment** releases every passing change. **Build once**, promote the same artifact.
 - **Semantic versioning** communicates compatibility; changelogs and tags make releases traceable.
 - Secure the pipeline: least privilege, managed secrets, care with untrusted pull requests.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-13-build-automation-and-cicd).
+
+**1. What is continuous integration?**
+
+- A. Merging to main frequently, each change verified by a fast, self-testing automated build
+- B. Releasing every week
+- C. Integrating with other companies
+- D. Running tests once before release
+
+**2. Which file describes a modern Python project's build, dependencies and tools?**
+
+- A. setup.cfg only
+- B. requirements.txt only
+- C. pyproject.toml
+- D. Makefile
+
+**3. What does the chapter advise for dependencies?**
+
+- A. Always use the latest version
+- B. Declare, pin, update deliberately, and audit them
+- C. Copy them into the repository
+- D. Avoid all dependencies
+
+**4. Why does NetWarden's pipeline test on three Python versions?**
+
+- A. To make builds slower
+- B. Because pytest requires it
+- C. To compare speed
+- D. To catch incompatibilities across the versions users run
+
+**5. How do continuous delivery and continuous deployment differ?**
+
+- A. They are the same
+- B. Delivery keeps every change releasable; deployment releases every passing change automatically
+- C. Deployment needs no tests
+- D. Delivery is only for mobile apps
+
+**6. What does 'build once, promote the same artifact' prevent?**
+
+- A. Slow builds
+- B. Version numbers
+- C. Dependency updates
+- D. Differences between what was tested and what is released
+
+**7. Under semantic versioning, which part changes for an incompatible API change?**
+
+- A. Major
+- B. Patch
+- C. Minor
+- D. Build
+
+**8. Which is a pipeline security practice from the chapter?**
+
+- A. Give the pipeline admin rights everywhere
+- B. Store secrets in the repository
+- C. Least privilege, managed secrets, and care with untrusted pull requests
+- D. Run every fork's code with secrets

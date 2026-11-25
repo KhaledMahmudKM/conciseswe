@@ -1075,3 +1075,63 @@ A `.gitignore` file lists what to leave out. Leaked secrets are a serious, commo
 - Write **atomic commits** with messages that explain why; **Conventional Commits** enable automation.
 - **Code review** catches defects and spreads knowledge; keep PRs small and automate style checks.
 - Never commit **secrets** or generated files; a leaked secret must be revoked.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-8-version-control-and-collaboration).
+
+**1. Why is Git called distributed?**
+
+- A. It runs on many servers
+- B. Every clone holds the full history and can commit without a server
+- C. Branches are distributed to users
+- D. It splits files into chunks
+
+**2. In what order does work flow in Git?**
+
+- A. Commit, stage, working tree
+- B. Remote, commit, working tree
+- C. Working tree, staging area, commit, then remote
+- D. Staging area, working tree, commit
+
+**3. What is a Git branch?**
+
+- A. A cheap, movable pointer to a commit
+- B. A copy of all files
+- C. A separate repository
+- D. A tag
+
+**4. When is rebasing dangerous?**
+
+- A. On commits that others already have, because it rewrites history
+- B. On a local branch
+- C. Before a merge
+- D. On the main branch of a new repository
+
+**5. What characterises GitHub flow and trunk-based development?**
+
+- A. Long-lived release branches
+- B. No branches at all
+- C. Short-lived branches and frequent integration
+- D. One branch per developer forever
+
+**6. What should a good commit message explain?**
+
+- A. Which files changed
+- B. Why the change was made
+- C. The developer's name
+- D. The time of the change
+
+**7. What is a main benefit of code review besides catching defects?**
+
+- A. Faster builds
+- B. Fewer commits
+- C. Automatic formatting
+- D. Spreading knowledge of the code across the team
+
+**8. A secret was committed and pushed. What must you do?**
+
+- A. Delete the file in a new commit
+- B. Revoke and replace the secret, since it remains in history
+- C. Rename the file
+- D. Make the repository private

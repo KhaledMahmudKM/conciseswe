@@ -1420,3 +1420,63 @@ Patterns are not goals. Applying them where the problem does not exist adds indi
 - NetWarden uses **strategy** (checks, reporters), **observer** (event bus), **factory** (reporters), **facade** (Assessment), **repository** (scan history) and **dependency injection** (composition root in `cli.py`); **adapter** and **decorator** are its planned extensions.
 - In Python, functions and classes are objects, so many patterns are lighter than in Java or C++.
 - Use patterns to resolve real forces, not for their own sake; recognise **anti-patterns** such as the god object.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-6-design-patterns).
+
+**1. What is a design pattern?**
+
+- A. A reusable library
+- B. A coding style rule
+- C. A UML diagram
+- D. A named solution to a recurring problem in a context, with known consequences
+
+**2. Into which three groups did the Gang of Four sort their 23 patterns?**
+
+- A. Simple, medium, complex
+- B. Creational, structural, behavioural
+- C. Data, logic, interface
+- D. Client, server, database
+
+**3. NetWarden's checks are interchangeable classes behind one interface, chosen at run time. Which pattern is that?**
+
+- A. Observer
+- B. Facade
+- C. Singleton
+- D. Strategy
+
+**4. NetWarden's event bus lets components react to scan events without the engine knowing them. Which pattern?**
+
+- A. Observer
+- B. Adapter
+- C. Decorator
+- D. Repository
+
+**5. Which pattern gives a complicated subsystem one simple entry point, like NetWarden's Assessment?**
+
+- A. Adapter
+- B. Factory
+- C. Facade
+- D. Decorator
+
+**6. Which pattern hides how scan history is stored behind collection-like methods?**
+
+- A. Strategy
+- B. Observer
+- C. Factory
+- D. Repository
+
+**7. Where does NetWarden wire its objects together for dependency injection?**
+
+- A. In every class constructor
+- B. In one composition root, cli.py
+- C. In a global registry
+- D. In the database
+
+**8. What is a god object?**
+
+- A. A well-designed central class
+- B. A singleton
+- C. An anti-pattern: one class that knows and does too much
+- D. An abstract base class

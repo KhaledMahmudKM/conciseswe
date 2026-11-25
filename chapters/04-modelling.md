@@ -2050,3 +2050,63 @@ pyreverse -o png -p netwarden src/netwarden
 - **Component** and **deployment** diagrams show replaceable parts and where software runs.
 - The **C4 model** describes architecture at four levels of zoom with simple, labelled boxes.
 - Keep diagrams small, focused and versioned, ideally as **diagrams as code**.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-4-modelling-with-uml-and-c4).
+
+**1. What is a model, in the chapter's sense?**
+
+- A. A full copy of the code
+- B. A simplified representation built to answer particular questions
+- C. A prototype
+- D. A test suite
+
+**2. Which relationship means the part is created and destroyed with the whole, like a ScanResult and its Findings?**
+
+- A. Association
+- B. Aggregation
+- C. Composition
+- D. Dependency
+
+**3. In UML, which relationship is a class implementing an interface?**
+
+- A. Realization
+- B. Generalization
+- C. Association
+- D. Dependency
+
+**4. What does the multiplicity 1..* mean?**
+
+- A. One or more
+- B. Exactly one
+- C. Zero or one
+- D. Any number, including zero
+
+**5. In a sequence diagram, what does an alt fragment show?**
+
+- A. A loop
+- B. An optional step
+- C. Alternative paths, chosen by guards
+- D. A parallel step
+
+**6. When should you model something as a state machine?**
+
+- A. When it has many attributes
+- B. When its response to an event depends on its history
+- C. When it is stored in a database
+- D. When it is deployed on a server
+
+**7. What is a C4 container?**
+
+- A. Always a Docker container
+- B. A UML package
+- C. A class with many attributes
+- D. Anything that runs or stores data separately: an application, a database, a file store
+
+**8. Why keep diagrams as code in the repository?**
+
+- A. They render faster
+- B. They are reviewed and versioned with the code, so they drift out of date less
+- C. UML requires it
+- D. They replace documentation

@@ -1211,3 +1211,63 @@ The causes in the literature repeat: unclear or changing requirements without ch
 - Track with **velocity, burn-up and burn-down** charts, or **earned value**; never use velocity to compare teams.
 - Manage **risks** proactively: identify, analyse exposure, respond (avoid, transfer, mitigate, accept), monitor.
 - Most project failures are visible early to anyone who keeps progress and risks transparent.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-16-project-management).
+
+**1. Which four constraints does a project balance?**
+
+- A. People, tools, process, budget
+- B. Scope, time, cost and quality
+- C. Speed, size, risk, value
+- D. Code, tests, docs, releases
+
+**2. What is a work breakdown structure?**
+
+- A. An organisation chart
+- B. A Gantt chart
+- C. A hierarchy of the work, split into deliverable pieces small enough to estimate
+- D. A risk register
+
+**3. What does the cone of uncertainty show?**
+
+- A. Early estimates are uncertain and narrow as the project learns more
+- B. Risks always grow
+- C. Velocity increases
+- D. Costs are fixed
+
+**4. What is the main purpose of planning poker?**
+
+- A. Quick team estimation that surfaces different assumptions
+- B. Gambling on deadlines
+- C. Assigning tasks
+- D. Measuring velocity
+
+**5. What determines a project's minimum duration in critical path analysis?**
+
+- A. The number of tasks
+- B. The shortest task
+- C. The longest chain of dependent tasks
+- D. The team size
+
+**6. Why should velocity never be used to compare teams?**
+
+- A. It is secret
+- B. Story points are relative to each team, so the numbers are not comparable
+- C. It is always the same
+- D. It measures quality
+
+**7. Which is a risk response strategy?**
+
+- A. Ignore
+- B. Hide
+- C. Postpone forever
+- D. Transfer
+
+**8. How is risk exposure usually estimated?**
+
+- A. Cost of the project
+- B. Probability times impact
+- C. Number of risks
+- D. Time to fix

@@ -1154,3 +1154,63 @@ A security tool's project should say how to report vulnerabilities in it. A `SEC
 - Every defect fix gets a **regression test**; significant defects get **root cause analysis**.
 - Build security into every phase: **abuse cases**, **threat modelling** with **STRIDE**, **secure coding**, dependency scanning and **SBOMs**.
 - Everything from the network, or from any user, is **untrusted** until validated or encoded.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-12-quality-assurance-and-secure-development).
+
+**1. How do quality assurance and quality control differ?**
+
+- A. They are the same
+- B. QA prevents defects through process; QC detects them in products, and testing is one QC activity
+- C. QA is testing; QC is reviewing
+- D. QC is only for hardware
+
+**2. Why do reviews and inspections find defects that tests miss?**
+
+- A. They run faster
+- B. They use more machines
+- C. They examine documents and code directly, so they catch issues such as unclear requirements and missing error handling
+- D. They replace tests
+
+**3. What does Goodhart's law warn about metrics?**
+
+- A. When a measure becomes a target, it stops being a good measure
+- B. Metrics are always wrong
+- C. More metrics are always better
+- D. Only automated metrics count
+
+**4. What should every defect fix include?**
+
+- A. A regression test that would have caught it
+- B. A new feature
+- C. A rewrite of the module
+- D. A new metric
+
+**5. What is an abuse case?**
+
+- A. A test of user friendliness
+- B. A support ticket
+- C. A use case written from an attacker's point of view, describing misuse the system must resist
+- D. A legal complaint
+
+**6. What does the S in STRIDE stand for?**
+
+- A. Scaling
+- B. Spoofing
+- C. Sanitising
+- D. Storage
+
+**7. How should NetWarden treat a service banner received from the network?**
+
+- A. As trusted, since NetWarden asked for it
+- B. As a command to run
+- C. As a log line only
+- D. As untrusted input, validated or encoded before use
+
+**8. What is an SBOM?**
+
+- A. A security bug report
+- B. A software bill of materials: an inventory of the components and dependencies in a release
+- C. A static analysis tool
+- D. A build script

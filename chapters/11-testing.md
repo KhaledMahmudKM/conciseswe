@@ -1327,3 +1327,63 @@ Then:
 - Design tests with **equivalence partitions, boundary values, decision tables**, state transitions, **coverage criteria** and error guessing.
 - **Test doubles** (dummy, stub, spy, mock, fake) isolate units; injected dependencies make them possible.
 - **TDD**: red, green, refactor. **Coverage** shows what is untested, not what is well tested.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-11-software-testing).
+
+**1. What is the relationship between error, fault and failure?**
+
+- A. A person's error causes a fault in the code, which may cause a visible failure
+- B. They are the same
+- C. A failure causes an error
+- D. A fault is a test that fails
+
+**2. What shape should a test suite have?**
+
+- A. An inverted pyramid: mostly end-to-end tests
+- B. A cube: equal numbers of each
+- C. A pyramid: many fast unit tests, fewer integration tests, few slow end-to-end tests
+- D. Only unit tests
+
+**3. Which pattern structures a good test?**
+
+- A. Setup, teardown
+- B. Given, When, Then only in BDD
+- C. Try, catch, finally
+- D. Arrange, act, assert
+
+**4. A severity applies to CVSS 7.0 to 8.9. Which values does boundary value analysis test?**
+
+- A. 7.5 only
+- B. 6.9, 7.0, 8.9 and 9.0
+- C. 0 and 10
+- D. Random values
+
+**5. Which test double records how it was called so the test can check the calls?**
+
+- A. Dummy
+- B. Stub
+- C. Spy
+- D. Fake
+
+**6. What makes test doubles possible in NetWarden?**
+
+- A. Injected dependencies: the engine receives its scanner and store
+- B. Global variables
+- C. Monkeypatching only
+- D. A test database
+
+**7. What are the TDD steps?**
+
+- A. Red, green, refactor
+- B. Code, test, deploy
+- C. Plan, do, check
+- D. Write, review, merge
+
+**8. What does 95% line coverage tell you?**
+
+- A. The code is 95% correct
+- B. 95% of requirements are met
+- C. Which code was executed by tests, so the other 5% is untested; not how well it is tested
+- D. There are 5% bugs

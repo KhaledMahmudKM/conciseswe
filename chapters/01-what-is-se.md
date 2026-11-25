@@ -1054,3 +1054,63 @@ Software engineers make decisions that affect people who never see the code: pat
 - Every process includes requirements, design, construction, testing, deployment and maintenance, supported by management, quality assurance and configuration management.
 - Quality has many dimensions (ISO/IEC 25010) that must be **traded off** deliberately.
 - **NetWarden**, a defensive network assessment tool, is the running example.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-1-what-is-software-engineering).
+
+**1. Which three words describe the approach in the standard definition of software engineering?**
+
+- A. Systematic, disciplined and quantifiable
+- B. Fast, cheap and good
+- C. Agile, lean and iterative
+- D. Creative, flexible and informal
+
+**2. What does 'programming integrated over time' mean?**
+
+- A. Programming done in long sessions
+- B. Writing code with timestamps
+- C. Software engineering's practices exist to cope with many authors, users, changes and long lifetimes
+- D. Using a scheduler in programs
+
+**3. Which of Brooks's essential difficulties says software must fit arbitrary external interfaces and rules?**
+
+- A. Complexity
+- B. Conformity
+- C. Changeability
+- D. Invisibility
+
+**4. What does Brooks's law state?**
+
+- A. Software costs double every year
+- B. Every program contains at least one bug
+- C. Work expands to fill the time available
+- D. Adding people to a late software project makes it later
+
+**5. Why does the book stress finding problems early?**
+
+- A. Early problems are more interesting
+- B. A mistake costs more to fix the later in the lifecycle it is found
+- C. Testers are cheaper early
+- D. Late problems cannot be fixed
+
+**6. What does ISO/IEC 25010 describe?**
+
+- A. A process model
+- B. A coding style
+- C. A UML diagram type
+- D. Software product quality, split into characteristics such as security and performance efficiency
+
+**7. Which lesson about quality characteristics does the chapter draw?**
+
+- A. They compete: more security checks can slow a scan, and engineering trades them off
+- B. They are independent
+- C. Only functional suitability matters
+- D. They apply only to safety-critical software
+
+**8. Why does NetWarden refuse a target outside its scope before sending any packet?**
+
+- A. To save bandwidth
+- B. The scanner cannot reach other networks
+- C. It is a requirement: assessing networks you are not authorised to assess is harmful and often illegal
+- D. To make testing easier

@@ -732,3 +732,63 @@ Eventually software is retired. A responsible retirement announces a timeline, p
 - Replace large parts incrementally with the **strangler fig** pattern, not a big-bang rewrite.
 - **Deprecate** before removing; keep **dependencies and platforms** current in small steps.
 - Keep maintainer documentation, especially **ADRs** and the **changelog**, next to the code.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-15-maintenance-and-evolution).
+
+**1. What does maintenance usually cost compared with initial development?**
+
+- A. More
+- B. Much less
+- C. About the same
+- D. Nothing, if the code is good
+
+**2. What do Lehman's laws say about real-world software?**
+
+- A. It can be finished
+- B. It never needs updates
+- C. It must keep changing, and its complexity grows unless actively reduced
+- D. It gets simpler with age
+
+**3. Updating NetWarden to work with a new Python version is which kind of maintenance?**
+
+- A. Corrective
+- B. Perfective
+- C. Preventive
+- D. Adaptive
+
+**4. Michael Feathers defines legacy code as what?**
+
+- A. Old code
+- B. Code without tests
+- C. Code in an old language
+- D. Code written by someone else
+
+**5. Before changing legacy code, what should you add first?**
+
+- A. Comments
+- B. New features
+- C. Characterisation tests at seams, recording what the code does today
+- D. A rewrite plan
+
+**6. What is the strangler fig pattern?**
+
+- A. Replacing a system incrementally, routing more and more to the new parts until the old one can go
+- B. A big-bang rewrite
+- C. A testing technique
+- D. A branching strategy
+
+**7. How should you remove a feature others depend on?**
+
+- A. Deprecate it first, with a warning and a timeline, then remove it
+- B. Delete it in the next release
+- C. Rename it
+- D. Hide it from the documentation
+
+**8. The Ubuntu OpenSSH false alarm, where a patched version still matched an old CVE, is an example of what?**
+
+- A. A typo
+- B. A hardware fault
+- C. A requirements gap revealed in operation, handled through the normal process
+- D. A network outage

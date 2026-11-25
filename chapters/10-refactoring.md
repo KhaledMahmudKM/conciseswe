@@ -635,3 +635,63 @@ Technical debt is a business concern, so explain it in business terms: "adding t
 - Good designs often **emerge** from refactoring when the need is clear.
 - **Technical debt** accrues **interest**; distinguish prudent from reckless, deliberate from inadvertent.
 - Make debt **visible**, prioritise **hotspots**, and repay continuously with the **Boy Scout Rule**.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-10-refactoring-and-technical-debt).
+
+**1. What is refactoring?**
+
+- A. Adding features
+- B. Rewriting from scratch
+- C. Fixing bugs
+- D. Improving the structure of code without changing its behaviour
+
+**2. What protects a refactoring from changing behaviour?**
+
+- A. Code review only
+- B. A good automated test suite run after each small step
+- C. Comments
+- D. Type hints alone
+
+**3. What is a code smell?**
+
+- A. A syntax error
+- B. Slow code
+- C. A security vulnerability
+- D. A surface sign that hints at a deeper design problem
+
+**4. A long if/elif chain switching on a type is a sign for which refactoring?**
+
+- A. Replace conditional with polymorphism
+- B. Rename
+- C. Inline function
+- D. Move field
+
+**5. What is technical debt's 'interest'?**
+
+- A. A fee to a vendor
+- B. The cost of tests
+- C. The extra effort every future change costs because of the shortcut
+- D. Overtime pay
+
+**6. Which kind of technical debt is a conscious, sensible trade-off?**
+
+- A. Reckless and inadvertent
+- B. Reckless and deliberate
+- C. Prudent and inadvertent
+- D. Prudent and deliberate
+
+**7. What is the Boy Scout Rule?**
+
+- A. Never change working code
+- B. Leave the code a little cleaner than you found it
+- C. Refactor only on Fridays
+- D. Always rewrite legacy code
+
+**8. Where should refactoring effort go first?**
+
+- A. Code nobody touches
+- B. The newest code
+- C. Hotspots: complex code that changes often
+- D. Test code

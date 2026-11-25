@@ -558,3 +558,63 @@ How many problems can you find? At least: meaningless names, a magic slice offse
 - Handle **expected conditions** locally, raise **specific exceptions**, and report failures at a **boundary**; never swallow errors silently.
 - Use **type hints** and a strict **type checker**; prefer enums, frozen dataclasses and protocols.
 - Let a **formatter** and **linter** enforce style automatically, locally and in CI.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-9-clean-code).
+
+**1. Why optimise code for the reader?**
+
+- A. Code is read far more often than it is written
+- B. Readers pay for software
+- C. Compilers prefer readable code
+- D. Short code runs faster
+
+**2. Which is the best name for a variable holding the open services found on a host?**
+
+- A. data
+- B. list1
+- C. open_services
+- D. x
+
+**3. What should a comment usually explain?**
+
+- A. What the code does, line by line
+- B. Why the code is the way it is
+- C. Who wrote it
+- D. When it was written
+
+**4. How should a function be designed?**
+
+- A. Long, to keep logic together
+- B. With many flags to cover all cases
+- C. With global state for speed
+- D. Small, doing one thing at one level of abstraction, with few parameters and no hidden side effects
+
+**5. What is wrong with except Exception: pass?**
+
+- A. Nothing
+- B. It silently swallows every error, hiding failures
+- C. It is slow
+- D. It is not valid Python
+
+**6. What do type hints plus a strict type checker give you?**
+
+- A. Faster programs
+- B. Automatic tests
+- C. Smaller files
+- D. Errors caught before running, and documentation that cannot go stale
+
+**7. Who should enforce code formatting?**
+
+- A. A formatter and linter, automatically, locally and in CI
+- B. Reviewers, in comments
+- C. The team lead
+- D. Nobody
+
+**8. Which describes an expected condition, such as a closed port during a scan?**
+
+- A. An exception to raise and crash
+- B. A bug
+- C. A normal outcome to handle locally
+- D. A reason to stop the scan

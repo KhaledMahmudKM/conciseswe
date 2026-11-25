@@ -1413,3 +1413,63 @@ In agile teams, architecture is not a phase done once by a separate person. It *
 - Start with a **modular monolith**; split into services only for a real need.
 - Evaluate with scenario-based methods such as **ATAM** and a **utility tree**.
 - Record decisions in **ADRs** and enforce key rules with **fitness functions**.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-7-software-architecture).
+
+**1. How does the chapter define software architecture?**
+
+- A. The set of structures and decisions that are expensive to change
+- B. The list of classes
+- C. The deployment diagram
+- D. The programming language
+
+**2. What mainly drives architecture?**
+
+- A. The functions the system performs
+- B. The team's favourite framework
+- C. Quality attributes, such as performance, security and modifiability
+- D. The database vendor
+
+**3. How should a quality attribute be written?**
+
+- A. As an adjective, such as fast
+- B. As a user story
+- C. As a class diagram
+- D. As a scenario with a source, stimulus, environment and a measurable response
+
+**4. What do ports and adapters (hexagonal architecture) give you?**
+
+- A. Faster networking
+- B. A core independent of technology, which makes it testable and adaptable
+- C. Automatic scaling
+- D. Fewer classes
+
+**5. What does the chapter recommend as the starting point?**
+
+- A. Microservices from day one
+- B. Serverless functions
+- C. A modular monolith, splitting into services only for a real need
+- D. A distributed event store
+
+**6. What is ATAM?**
+
+- A. A scenario-based method for evaluating architectures, with a utility tree
+- B. A deployment tool
+- C. A design pattern
+- D. A test technique
+
+**7. What is an ADR?**
+
+- A. An architecture decision record: a short document of a decision, its context and consequences
+- B. An automated deployment run
+- C. A database table
+- D. A UML diagram
+
+**8. What is an architectural fitness function?**
+
+- A. A performance benchmark only
+- B. A health check endpoint
+- C. An automated check that enforces an architectural rule, such as 'the core never imports the network library'
+- D. A code formatter

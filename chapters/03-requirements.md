@@ -1254,3 +1254,63 @@ Requirements change, and that is normal. What matters is that change is **visibl
 - **User stories** with **acceptance criteria** suit agile planning; **use cases** capture alternative flows.
 - Prioritise with **MoSCoW** or an ordered backlog.
 - **Validate** that requirements are right; **trace** them to design, code and tests; control **change**.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-3-requirements-engineering).
+
+**1. Which requirements engineering activity checks that these are the right requirements?**
+
+- A. Validation
+- B. Elicitation
+- C. Specification
+- D. Management
+
+**2. For NetWarden, who is a stakeholder who never uses the system?**
+
+- A. The administrator
+- B. The developers
+- C. The owners of the machines being scanned
+- D. The CI pipeline
+
+**3. Which of these is a well-written non-functional requirement?**
+
+- A. The scan should be fast
+- B. The tool should be safe
+- C. The code should be maintainable
+- D. A /24 network on the 17 default ports shall complete in under 60 s on a LAN
+
+**4. The requirement 'Use a SQLite table' is poor. Which characteristic does it break?**
+
+- A. Verifiable
+- B. Appropriate: it says how, not what
+- C. Singular
+- D. Feasible
+
+**5. What is the role of acceptance criteria in a user story?**
+
+- A. They estimate the story
+- B. They name the user role
+- C. They record what the conversation decided, and become tests
+- D. They assign the story to a sprint
+
+**6. What does INVEST stand for?**
+
+- A. Independent, Negotiable, Valuable, Estimable, Small, Testable
+- B. Iterative, New, Verified, Estimated, Simple, Tracked
+- C. Important, Necessary, Valid, Exact, Short, Timed
+- D. Initial, Normal, Variable, Extended, Stable, Typed
+
+**7. What are use cases better at than user stories?**
+
+- A. Capturing alternative flows, such as what happens when a target is out of scope
+- B. Estimating effort
+- C. Prioritising
+- D. Describing the user interface
+
+**8. What does traceability give you when the scope rule changes?**
+
+- A. A new baseline automatically
+- B. A MoSCoW priority
+- C. Links showing exactly which design, code and tests realise that requirement
+- D. An approval from the product owner

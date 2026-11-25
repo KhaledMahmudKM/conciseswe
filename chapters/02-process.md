@@ -1100,3 +1100,63 @@ NetWarden was developed with **Scrum** in three two-week sprints, because the re
 - **Scrum** uses sprints, three accountabilities, five events and three artifacts, plus a **definition of done**.
 - **Kanban** visualises flow and limits **work in progress**; **XP** supplies engineering practices.
 - Choose by the project's risks; most organisations use **hybrids**.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-2-software-process-models).
+
+**1. When does a plan-driven process such as waterfall work best?**
+
+- A. When requirements change weekly
+- B. When there is no customer
+- C. For small prototypes
+- D. When requirements are well understood and stable, and the cost of failure is high
+
+**2. What does the V-model add to waterfall?**
+
+- A. Sprints
+- B. It pairs each specification with the test level that will verify it
+- C. WIP limits
+- D. Daily stand-ups
+
+**3. What drives each loop of Boehm's spiral model?**
+
+- A. The calendar
+- B. The number of developers
+- C. Customer complaints
+- D. The biggest remaining risks, often resolved by building a prototype
+
+**4. Which is one of the four values of the Agile Manifesto?**
+
+- A. Responding to change over following a plan
+- B. Comprehensive documentation over working software
+- C. Processes and tools over individuals
+- D. Contract negotiation over customer collaboration
+
+**5. In Scrum, who orders the product backlog?**
+
+- A. The scrum master
+- B. The developers
+- C. The product owner
+- D. The stakeholders
+
+**6. What is the definition of done?**
+
+- A. The sprint end date
+- B. The product owner's approval
+- C. The last item in the backlog
+- D. A shared checklist every increment must satisfy, such as tests passing and code reviewed
+
+**7. What does Kanban limit to make bottlenecks visible?**
+
+- A. Sprint length
+- B. Work in progress
+- C. Team size
+- D. Backlog size
+
+**8. Why was NetWarden developed with Scrum but its safety requirements fixed up front?**
+
+- A. Scrum forbids safety requirements
+- B. The team did not know Scrum well
+- C. Requirements were expected to change, but safety rules were too important to leave to change: a hybrid
+- D. Waterfall was cheaper

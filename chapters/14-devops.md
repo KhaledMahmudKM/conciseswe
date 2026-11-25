@@ -1213,3 +1213,63 @@ A NetWarden example: a weekly scan disrupted an old network printer that crashed
 - Observe with **logs, metrics and traces**; define **SLOs**.
 - **DORA metrics** show that speed and stability improve together.
 - Handle **incidents** by mitigating first and learning through **blameless postmortems**.
+
+## Check your understanding
+
+Choose the best answer for each question, then check your answers in [Answers to Chapter Questions](answers.md#chapter-14-deployment-and-devops).
+
+**1. What does CALMS stand for in DevOps?**
+
+- A. Code, Automation, Linux, Monitoring, Security
+- B. Cloud, Agile, Logs, Metrics, SRE
+- C. CI, ALM, Lean, Merge, Ship
+- D. Culture, Automation, Lean, Measurement, Sharing
+
+**2. What does a multi-stage container build achieve?**
+
+- A. Faster tests
+- B. A small final image without build tools
+- C. Several containers per image
+- D. Automatic scaling
+
+**3. Where should configuration such as addresses and credentials live?**
+
+- A. Hard-coded in the source
+- B. In comments
+- C. In the container image
+- D. Outside the code, in the environment or configuration files per deployment
+
+**4. Which release strategy sends a small share of users to the new version first?**
+
+- A. Canary
+- B. Big bang
+- C. Blue-green
+- D. Recreate
+
+**5. What do feature flags let a team do?**
+
+- A. Skip testing
+- B. Encrypt features
+- C. Deploy code with a feature turned off, and turn it on separately from the deployment
+- D. Remove the need for version control
+
+**6. What are the three pillars of observability?**
+
+- A. CPU, memory and disk
+- B. Alerts, dashboards and tickets
+- C. Builds, tests and releases
+- D. Logs, metrics and traces
+
+**7. What do the DORA findings show about speed and stability?**
+
+- A. They trade off: faster means less stable
+- B. They improve together in high-performing teams
+- C. Stability does not matter
+- D. Speed only matters for startups
+
+**8. During an incident, what comes first?**
+
+- A. Finding who caused it
+- B. Writing the postmortem
+- C. Mitigating the impact, then learning through a blameless postmortem
+- D. Rewriting the component

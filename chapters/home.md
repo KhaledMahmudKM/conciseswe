@@ -34,7 +34,7 @@ You will see NetWarden's vision, requirements and user stories, its UML models a
 
 **Part VI, People and Projects.** Estimation, planning and risk; teams, professional ethics and AI-assisted development.
 
-The **Appendix** has quick-reference sheets for UML notation, Git, pytest and the NetWarden commands, and the **Glossary** defines every term.
+The **Appendix** has quick-reference sheets for UML notation, Git, pytest and the NetWarden commands, and the **Glossary** defines every term. Each chapter ends with **Check your understanding**, eight multiple-choice questions, and the **Answers to Chapter Questions** chapter gives every answer with a short explanation.
 
 ---
 
